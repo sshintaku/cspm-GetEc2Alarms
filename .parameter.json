@@ -1,0 +1,17 @@
+{
+    "AlarmLevels" : ["critical"],
+    "RegEx" : "^maintainer:",
+    "ApiUrl" :  "https://api2.prismacloud.io/",
+    "IgnoreAudits" : [],
+    "PaginationOffset": 0,
+    "PaginationMaxRecords": 50,
+    "AlertQueryParameters": {
+        "timeType": "relative",
+        "timeAmount": "7",
+        "timeUnit": "day",
+        "detailed": false,
+        "policy.severity": "high",
+        "policy.name": "Instances exposed to network traffic from the internet",
+        "alert.status": "Open"
+    }
+}
